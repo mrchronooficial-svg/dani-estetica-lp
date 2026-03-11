@@ -32,15 +32,15 @@ export default function Hero() {
 
         <ScrollReveal delay={0.1}>
           <h1 className="text-3xl font-extrabold leading-tight text-text mt-2">
-            Pare de sofrer com{' '}
-            <GradientText variant="cta">dieta e academia.</GradientText>
+            Até 4cm a menos de cintura{' '}
+            <GradientText variant="cta">em 3 sessões.</GradientText>
           </h1>
         </ScrollReveal>
 
         <ScrollReveal delay={0.2}>
           <p className="text-text-secondary text-base leading-relaxed mt-4">
-            Descubra como desinchar e modelar seu corpo em 21 dias, com apenas
-            15 minutos de automassagem profissional por dia — em casa.
+            Descubra como desinchar e modelar seu corpo em 21 dias em apenas
+            19 minutos por dia.
           </p>
         </ScrollReveal>
 
@@ -61,7 +61,7 @@ export default function Hero() {
         <ScrollReveal delay={0.35}>
           <div className="bg-accent/10 border border-accent/20 rounded-xl p-4 mt-6">
             <p className="text-sm text-text-secondary">
-              ✦ Método de esteticista profissional com 5+ anos e mais de 5.000
+              ✦ Método de esteticista profissional com 15+ anos e mais de 5.000
               sessões realizadas
             </p>
           </div>

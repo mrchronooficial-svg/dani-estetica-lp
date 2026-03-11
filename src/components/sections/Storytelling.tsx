@@ -39,7 +39,7 @@ export default function Storytelling() {
           </p>
           <p className="text-text-secondary text-sm leading-relaxed mb-2">
             Já havia tentado de tudo: receitas milagrosas, personal trainers,
-            academia todo dia, até caneta de emagrecimento.
+            academia todo dia.
           </p>
           <p className="text-text text-sm font-bold leading-relaxed mb-8">
             Tudo sempre voltava para o mesmo lugar: frustração.
@@ -50,11 +50,13 @@ export default function Storytelling() {
         <ScrollReveal>
           <QuoteBox variant="accent" className="mb-6">
             <p className="text-text-secondary text-sm leading-relaxed">
-              Foi aí que descobri um{' '}
+              Foi aí que descobri o{' '}
               <strong className="text-text">método milenar de modelação
-              corporal</strong> em que mesmo pessoas que quase não iam para a
-              academia conseguiam aplicar e ter resultados extraordinários — de
-              forma quase imediata.
+              corporal</strong>, em que pessoas que incorporaram essa drenagem em
+              sua rotina conseguiram resultados extraordinários, de forma quase
+              imediata. Com apenas uma sessão de drenagem, o corpo pode eliminar
+              o inchaço acumulado, podendo resultar em uma perda perceptível de
+              até 1,5 kg em líquidos.
             </p>
           </QuoteBox>
         </ScrollReveal>
@@ -82,7 +84,7 @@ export default function Storytelling() {
           <p className="text-text-secondary text-sm leading-relaxed mb-4">
             Depois disso, passei a ser chamada de{' '}
             <strong>&ldquo;As mãos que curam&rdquo;</strong>. Por isso, peguei
-            tudo o que aprendi em 5 anos de prática profissional e criei o
+            tudo o que aprendi em 15 anos de prática profissional e criei o
             único método que transforma seu corpo com prazer.
           </p>
           <p className="text-text text-lg font-bold leading-tight">

@@ -19,6 +19,10 @@ export default function Footer() {
           <span className="mx-2">|</span>
           <span>Política de privacidade</span>
         </p>
+
+        <p className="text-[10px] text-text-secondary/40 mt-4 leading-relaxed">
+          * O tempo diário dedicado à automassagem pode variar de pessoa para pessoa.
+        </p>
       </div>
     </footer>
   );

@@ -72,7 +72,7 @@ export default function OfertaFinal() {
 
           <p className="text-center text-xs text-text-secondary mt-6 leading-relaxed">
             Isso é menos que R$1 por dia para transformar seu corpo com prazer,
-            em casa, em 15 minutos.
+            em casa, em 19 minutos.
           </p>
         </ScrollReveal>
       </div>

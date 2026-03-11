@@ -70,11 +70,11 @@ export default function Dores() {
 
         <ScrollReveal delay={0.2}>
           <p className="text-text-secondary text-sm leading-relaxed mb-4">
-            Dietas, exercícios e cremes atacam o problema errado. Eles tentam
-            queimar gordura. Mas o que <strong>incha</strong> seu corpo, o que
-            dá aquela sensação de <strong>peso</strong> e{' '}
-            <strong>desconforto</strong> toda manhã, não é gordura —
-            é <strong>fluido retido nos seus tecidos</strong>.
+            Somente dietas e exercícios não vão desinchar o seu corpo. Falta o
+            essencial: a <strong>drenagem</strong>. O que <strong>incha</strong>{' '}
+            seu corpo, o que dá a sensação de <strong>peso</strong> e{' '}
+            <strong>desconforto</strong> o dia inteiro, são os{' '}
+            <strong>fluidos retidos nos seus tecidos</strong>.
           </p>
         </ScrollReveal>
 
@@ -82,7 +82,7 @@ export default function Dores() {
           <p className="text-text-secondary text-sm leading-relaxed mb-4">
             E sabe o que resolve retenção de líquido?{' '}
             <strong>Drenagem.</strong> A mesma técnica que esteticistas
-            profissionais cobram R$200 por sessão para fazer.
+            profissionais cobram de R$300 a R$350 por sessão para fazer.
           </p>
         </ScrollReveal>
 

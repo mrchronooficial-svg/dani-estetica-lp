@@ -57,11 +57,11 @@ export default function Ancoragem() {
         {/* Professional comparison */}
         <ScrollReveal delay={0.2}>
           <p className="text-center text-text-secondary mt-8 text-sm leading-relaxed">
-            Mas se você fizesse 21 sessões de massagem modeladora
+            Mas se você fizesse 21 sessões de autodrenagem
             profissional...
           </p>
           <p className="text-center font-bold text-text text-lg mt-2">
-            21 × R$200 = R$4.200
+            21 × R$300 = R$6.300
           </p>
         </ScrollReveal>
 

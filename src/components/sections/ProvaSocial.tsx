@@ -78,7 +78,7 @@ export default function ProvaSocial() {
             </strong>
             , com rotinas reais, que dedicaram apenas{" "}
             <strong className="font-bold text-text">
-              15 minutos por dia
+              19 minutos por dia
             </strong>{" "}
             ao próprio corpo.
           </p>

@@ -11,14 +11,14 @@ import { Check } from 'lucide-react';
 const FUNCIONA_ITEMS = [
   {
     title: 'Mesmo que você nunca tenha feito massagem',
-    desc: 'Os vídeos são passo a passo, como se estivesse no consultório da Dani.',
+    desc: 'Os vídeos são passo a passo, como se estivesse no espaço da Dani.',
   },
   {
     title: 'Mesmo que você ache que "nada funciona no seu corpo"',
-    desc: 'Automassagem não é dieta, não é exercício. É uma técnica diferente de tudo que você já tentou. Grande parte do inchaço é fluido retido nos tecidos — e a drenagem resolve isso diretamente.',
+    desc: 'Autodrenagem é uma técnica com resultado logo na primeira sessão. Grande parte do inchaço é fluido retido nos tecidos — e a drenagem resolve isso diretamente.',
   },
   {
-    title: 'Mesmo que você tenha apenas 15 minutos por dia',
+    title: 'Mesmo que você tenha apenas 19 minutos por dia',
     desc: 'É exatamente o tempo que você precisa. Menos que um episódio de série.',
   },
 ];
@@ -39,9 +39,10 @@ export default function Produto() {
 
         <ScrollReveal delay={0.15}>
           <p className="text-text-secondary text-sm leading-relaxed mb-4">
-            A técnica profissional de massagem modeladora — a mesma que custa
-            R$200 por sessão — adaptada para você fazer em si mesma, todos os
-            dias, em casa, em apenas 15 minutos.
+            A técnica profissional de autodrenagem — a mesma que custa de
+            R$300 a R$350 por sessão — adaptada para você fazer em casa todos
+            os dias. Você realizará autodrenagem de qualquer lugar que esteja
+            e obterá um resultado satisfatório e rápido.
           </p>
         </ScrollReveal>
 
@@ -55,7 +56,7 @@ export default function Produto() {
 
         <ScrollReveal delay={0.25}>
           <p className="text-text-secondary text-sm leading-relaxed mb-8">
-            Adaptada pela Dani ao longo de 5 anos para ser simples o suficiente
+            Adaptada pela Dani ao longo de 15 anos para ser simples o suficiente
             pra fazer sozinha e eficiente o suficiente pra ver resultado rápido.
           </p>
         </ScrollReveal>

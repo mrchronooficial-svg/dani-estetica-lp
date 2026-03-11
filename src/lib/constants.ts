@@ -11,15 +11,15 @@ export const DORES = [
 ];
 
 export const NAO_E = [
-  "**NÃO É** mais uma dieta restritiva que te faz passar fome e depois voltar tudo.",
+  "**NÃO É** uma drenagem linfática comum.",
   "**NÃO É** um programa de exercícios que exige horas na academia.",
   "**NÃO É** um creme milagroso ou chá detox.",
 ];
 
 export const E_SIM = [
-  "**É** a técnica profissional de massagem modeladora — a mesma que custa **R$200 por sessão** — adaptada para você fazer em si mesma.",
-  "**É** um desafio de **21 dias**, com vídeos passo a passo, como se você estivesse no consultório da Dani.",
-  "**É** **15 minutos por dia** de autocuidado que desincha, modela e transforma seu corpo **com prazer**.",
+  "**É** a técnica profissional de autodrenagem — a mesma que custa **de R$300 a R$350 por sessão** — adaptada para você fazer em si mesma.",
+  "**É** um desafio de **21 dias**, com vídeos passo a passo, como se você estivesse no espaço da Dani.",
+  "**É** **19 minutos por dia** de autocuidado que desincha, modela, define, acelera o seu metabolismo e transforma o seu corpo.",
 ];
 
 export const POR_QUE_FUNCIONA = [
@@ -31,17 +31,17 @@ export const POR_QUE_FUNCIONA = [
   {
     num: "02",
     title: "Resultado Visível nos Primeiros Dias",
-    text: "Diferente de dieta e exercício que levam semanas, a drenagem manual atua diretamente no fluido retido nos tecidos. Por isso o desinchamento é visível já nos primeiros dias — você não está \"emagrecendo\", está destravando o que já estava preso.",
+    text: "Diferente de dieta e exercício que levam semanas, a drenagem manual atua diretamente no fluido retido nos tecidos. Por isso o resultado é visível já nos primeiros dias — você não está \"emagrecendo\", está destravando o que já estava preso.",
   },
   {
     num: "03",
-    title: "15 Minutos é Tudo Que Você Precisa",
-    text: "Sem horas na academia. Sem preparar marmita. São 15 minutos do seu dia, no conforto da sua casa, no horário que for melhor pra você.",
+    title: "19 Minutos é Tudo Que Você Precisa",
+    text: "Sem horas na academia. Sem preparar marmita. São 19 minutos do seu dia, no conforto da sua casa, no horário que for melhor pra você.",
   },
   {
     num: "04",
     title: "Técnica Profissional nas Suas Mãos",
-    text: "O que a Dani cobra R$200 por sessão para fazer em clientes, você vai aprender a fazer em si mesma. Mesmos movimentos. Mesma técnica. Resultado similar.",
+    text: "O que a Dani cobra de R$300 a R$350 por sessão para fazer em clientes, você vai aprender a fazer em si mesma. Mesmos movimentos. Mesma técnica. Resultado similar.",
   },
   {
     num: "05",
@@ -71,7 +71,7 @@ export const MODULOS = [
   {
     num: 2,
     title: "Semana 1 — Pernas + Glúteos",
-    desc: "Aulas 100% práticas. Você aprende e aplica assistindo junto com a Dani, como se estivesse no consultório dela.",
+    desc: "Aulas 100% práticas. Você aprende e aplica assistindo junto com a Dani, como se estivesse no espaço dela.",
     items: [
       "Coxas anteriores e posteriores",
       "Bumbum Up — técnica de lifting natural",
@@ -111,8 +111,8 @@ export const BONUS = [
   },
   {
     num: 2,
-    title: "Ritual Energético Detox",
-    desc: "Banho detox que potencializa a drenagem e elimina toxinas. Um ritual de autocuidado que complementa a automassagem e acelera seus resultados.",
+    title: "Ritual Energético",
+    desc: "Banho energético que limpa a energia negativa e promove bem-estar, equilíbrio e harmonia.",
     value: 67,
   },
   {
@@ -132,30 +132,30 @@ export const BONUS = [
 export const ANCORAGEM_ITEMS = [
   { name: "Desafio Drena 21 Completo", value: 497 },
   { name: "Protocolo Rosto de Cristal", value: 97 },
-  { name: "Ritual Energético Detox", value: 67 },
+  { name: "Ritual Energético", value: 67 },
   { name: "Guia Desincha Já (c/ nutricionista)", value: 127 },
   { name: "Hidratação Profunda Pro", value: 67 },
 ];
 
 export const PARA_QUEM_NAO_E = [
-  "Você não está disposta a dedicar 15 minutos por dia ao seu corpo.",
+  "Você não está disposta a dedicar 19 minutos por dia ao seu corpo.",
   "Você quer resultado mágico sem fazer nada — sem seguir as instruções e sem compromisso.",
   "Você não segue instruções em vídeo e não vai assistir as aulas antes de praticar.",
+  "Você não quer se comprometer com você mesma.",
 ];
 
 export const PARA_QUEM_E = [
   "Está cansada de inchaço e quer desinchar em dias, não em meses.",
   "Quer modelar e realçar suas curvas sem academia e sem dieta.",
-  "É mãe, trabalha, cuida da casa e não tem tempo sobrando — mas quer dedicar 15 minutos a si mesma.",
-  "Já tentou de tudo e nada funcionou — dietas, exercícios, cremes, chás.",
+  "É mãe, trabalha, cuida da casa e não tem tempo sobrando — mas quer dedicar 25 minutos a si mesma.",
+  "Já tentou de tudo e nada funcionou.",
   "Quer se olhar no espelho e se sentir bonita e confiante.",
-  "Quer parar de gastar R$200 por sessão e aprender a fazer sozinha.",
+  "Quer parar de gastar de R$300 a R$350 por sessão e aprender a fazer sozinha.",
 ];
 
 export const CREDENCIAIS = [
-  "**5+ anos de experiência** como esteticista profissional, especialista em massagem modeladora.",
+  "**15+ anos de experiência** como esteticista profissional, especialista em autodrenagem.",
   "**Mais de 5.000 sessões realizadas** — ela sabe exatamente quais movimentos funcionam e como adaptá-los para você fazer em casa.",
-  "**Especialista certificada na técnica Renata França** — a referência nº1 em massagem modeladora no Brasil.",
   "**Resultados reais:** Clientes com redução de até 4cm de cintura em apenas 3 sessões.",
   "**\"As mãos que curam\"** — apelido dado pelas próprias clientes pelo poder de transformação e acolhimento das sessões.",
 ];
@@ -163,26 +163,26 @@ export const CREDENCIAIS = [
 export const FAQ_ITEMS = [
   {
     q: "Funciona mesmo?",
-    a: "O Desafio Drena 21 usa a mesma técnica profissional que a Dani aplica em clientes há mais de 5 anos, com resultados comprovados. Além disso, você tem 7 dias de garantia incondicional — se não gostar, devolvemos 100% do valor.",
+    a: "O Desafio Drena 21 usa a mesma técnica profissional que a Dani aplica em clientes há mais de 15 anos, com resultados comprovados. Além disso, você tem 7 dias de garantia incondicional — se não gostar, devolvemos 100% do valor.",
   },
   {
     q: "Não tenho tempo. Quanto tempo por dia preciso dedicar?",
-    a: "15 minutos por dia. Menos que um episódio de série. Você pode fazer de manhã, à noite, no horário que for melhor pra você.",
+    a: "Na primeira semana, 15 minutos por dia. Na segunda semana, 19 minutos. Na terceira semana, 25 minutos. Você pode fazer de manhã, à noite, no horário que for melhor pra você.",
   },
   {
     q: "Não sei fazer massagem. Vou conseguir?",
-    a: "Se você consegue passar creme no corpo, consegue fazer automassagem. Os vídeos são passo a passo, como se você estivesse no consultório da Dani. Ela mostra cada movimento em detalhes.",
+    a: "Se você consegue passar creme no corpo, consegue fazer automassagem. Os vídeos são passo a passo, como se você estivesse no espaço da Dani. Ela mostra cada movimento em detalhes.",
   },
   {
     q: "É caro?",
-    a: "Uma sessão profissional de massagem modeladora custa R$200 ou mais. O Desafio inteiro, com 21 dias de técnica + 4 bônus, custa R$197 — ou 12x de R$19,70 (menos de R$1 por dia). E o acesso é vitalício.",
+    a: "Uma sessão profissional de autodrenagem custa de R$300 a R$350. O Desafio inteiro, com 21 dias de técnica + 4 bônus, custa R$197 — ou 12x de R$19,70 (menos de R$1 por dia). E o acesso é vitalício.",
   },
   {
     q: "Quando vou ver resultado?",
-    a: "O desinchamento é visível nos primeiros dias. Clientes presenciais da Dani relatam redução de 2 a 5cm na região abdominal ao longo das sessões. Com automassagem diária, a tendência é resultado progressivo ao longo dos 21 dias.",
+    a: "Já se observa resultado desde a primeira sessão. O seu corpo começa a desinchar, reduzir medidas e celulite, estimular o bom funcionamento do intestino. Sua qualidade de sono melhora, promovendo bem-estar. Com a autodrenagem diária, a tendência é resultado progressivo ao longo dos 21 dias.",
   },
   {
     q: "Já tentei de tudo e nada deu certo. Por que seria diferente?",
-    a: "Porque isso não é dieta nem exercício. É uma técnica profissional completamente diferente de tudo que você já fez. Enquanto dietas tentam queimar gordura, a automassagem atua diretamente no fluido retido nos tecidos — por isso o resultado é mais rápido e visível.",
+    a: "É uma técnica profissional completamente diferente de tudo que você já fez. Enquanto dietas tentam queimar gordura, a automassagem atua diretamente no fluido retido nos tecidos — por isso o resultado é mais rápido e visível.",
   },
 ];
