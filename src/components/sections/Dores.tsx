@@ -10,9 +10,7 @@ import {
   Droplets,
   FlaskConical,
   Shirt,
-  TrendingDown,
   Clock,
-  HelpCircle,
   Eye,
 } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
@@ -21,9 +19,7 @@ const DORES_ICONS: LucideIcon[] = [
   Droplets,
   FlaskConical,
   Shirt,
-  TrendingDown,
   Clock,
-  HelpCircle,
   Eye,
 ];
 
@@ -36,7 +32,7 @@ function parseBold(text: string): ReactNode[] {
 
 export default function Dores() {
   return (
-    <section className="py-16 bg-bg">
+    <section className="py-20 bg-bg">
       <div className="max-w-[420px] mx-auto px-5">
         <ScrollReveal>
           <h2 className="text-2xl font-bold text-center text-text mb-8">

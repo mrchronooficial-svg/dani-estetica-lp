@@ -1,8 +1,7 @@
 "use client";
 
-import { StaggerContainer, StaggerItem } from "@/components/ui/StaggerContainer";
 import SectionLabel from "@/components/ui/SectionLabel";
-import HoverCard from "@/components/ui/HoverCard";
+import HorizontalCarousel from "@/components/ui/HorizontalCarousel";
 import { BONUS } from "@/lib/constants";
 
 function parseBold(text: string) {
@@ -25,35 +24,36 @@ export default function Bonus() {
           </h2>
         </div>
 
-        <StaggerContainer className="flex flex-col gap-4">
+        <HorizontalCarousel>
           {BONUS.map((bonus) => (
-            <StaggerItem key={bonus.num}>
-              <HoverCard>
-                <p className="text-xs font-bold text-accent uppercase tracking-wider">
-                  🎁 BÔNUS #{bonus.num}
-                </p>
+            <div
+              key={bonus.num}
+              className="bg-white rounded-xl border border-border p-5 h-full"
+            >
+              <div className="bg-primary-light/30 rounded-lg h-32 flex items-center justify-center mb-4">
+                <span className="text-text-secondary text-sm">
+                  Bônus {bonus.num}
+                </span>
+              </div>
 
-                <div className="bg-primary-light/30 rounded-lg h-32 flex items-center justify-center mt-3">
-                  <span className="text-text-secondary text-sm">
-                    Bônus {bonus.num}
-                  </span>
-                </div>
+              <p className="text-xs font-bold text-accent uppercase tracking-wider">
+                🎁 BÔNUS #{bonus.num}
+              </p>
 
-                <h3 className="font-bold text-lg mt-3 text-text">
-                  {bonus.title}
-                </h3>
+              <h3 className="font-bold text-lg mt-2 text-text">
+                {bonus.title}
+              </h3>
 
-                <p className="text-sm text-text-secondary mt-2">
-                  {bonus.desc}
-                </p>
+              <p className="text-sm text-text-secondary mt-2">
+                {bonus.desc}
+              </p>
 
-                <p className="text-accent font-bold mt-2">
-                  VALOR: R${bonus.value}
-                </p>
-              </HoverCard>
-            </StaggerItem>
+              <p className="text-accent font-bold mt-3">
+                VALOR: R${bonus.value}
+              </p>
+            </div>
           ))}
-        </StaggerContainer>
+        </HorizontalCarousel>
       </div>
     </section>
   );

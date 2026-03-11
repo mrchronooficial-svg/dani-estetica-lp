@@ -7,7 +7,7 @@ import { CTA_SUBTEXT } from '@/lib/constants';
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-bg pt-24 pb-16">
+    <section className="relative overflow-hidden bg-bg pt-16 pb-16">
       {/* Gradient blobs */}
       <div
         className="blob-float absolute -top-20 -right-20 w-72 h-72 rounded-full"

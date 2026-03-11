@@ -30,56 +30,23 @@ export default function Storytelling() {
           </ImageReveal>
         </ScrollReveal>
 
-        {/* Intro */}
+        {/* Beat 1 — Frustração */}
         <ScrollReveal delay={0.1}>
-          <p className="text-text-secondary text-sm leading-relaxed mb-4">
-            👋 Olá, eu sou a Dani. Antes de ser a esteticista que já realizou mais
-            de 5.000 sessões de massagem modeladora, eu era você.
-          </p>
-        </ScrollReveal>
-
-        {/* Busca frustrada */}
-        <ScrollReveal>
           <p className="text-text-secondary text-sm leading-relaxed mb-3">
-            Eu sempre tive uma vida saudável — alimentação regulada, rotina de
-            exercícios ativos. Mas percebi que isso não era suficiente para ter
-            o corpo dos meus sonhos.
+            Eu sou a Dani. Antes de ser a esteticista que já realizou mais
+            de 5.000 sessões, eu era você — vida saudável, alimentação
+            regulada, exercícios ativos. Mas o corpo não respondia.
           </p>
           <p className="text-text-secondary text-sm leading-relaxed mb-2">
-            Já havia tentado de tudo:
+            Já havia tentado de tudo: receitas milagrosas, personal trainers,
+            academia todo dia, até caneta de emagrecimento.
           </p>
-          <ul className="text-text-secondary text-sm leading-relaxed mb-3 space-y-1 pl-1">
-            <li>• Receitas milagrosas</li>
-            <li>• Personal trainers</li>
-            <li>• Academia todo dia</li>
-            <li>• Até caneta de emagrecimento</li>
-          </ul>
-          <p className="text-text text-sm font-bold leading-relaxed mb-6">
+          <p className="text-text text-sm font-bold leading-relaxed mb-8">
             Tudo sempre voltava para o mesmo lugar: frustração.
           </p>
         </ScrollReveal>
 
-        {/* Ponto de virada — QuoteBox */}
-        <ScrollReveal>
-          <QuoteBox variant="primary" className="mb-6">
-            <p className="text-text-secondary text-sm leading-relaxed">
-              Teve um dia em que me arrumei pra sair — coloquei aquele vestido que
-              sempre ficou bem — e quando me olhei no espelho,{' '}
-              <strong className="text-text">não me reconheci.</strong> O corpo
-              inchado, a roupa apertando em lugares que antes não apertava. Tirei
-              o vestido, coloquei uma roupa larga e fui assim mesmo.
-            </p>
-          </QuoteBox>
-        </ScrollReveal>
-
-        <ScrollReveal>
-          <p className="text-text-secondary text-sm leading-relaxed mb-6">
-            No caminho, pensei: &ldquo;eu faço tudo certo — como bem, treino,
-            me cuido — e meu corpo não responde.&rdquo;
-          </p>
-        </ScrollReveal>
-
-        {/* Descoberta — QuoteBox */}
+        {/* Beat 2 — Descoberta */}
         <ScrollReveal>
           <QuoteBox variant="accent" className="mb-6">
             <p className="text-text-secondary text-sm leading-relaxed">
@@ -99,60 +66,24 @@ export default function Storytelling() {
             curvas naturais e que faz da brasileira o corpo mais desejado do
             mundo.
           </p>
-          <p className="text-text text-sm font-bold leading-relaxed mb-6">
+          <p className="text-text text-sm font-bold leading-relaxed mb-8">
             Fazer realçar essas curvas se tornou o objetivo da minha vida.
           </p>
         </ScrollReveal>
 
-        {/* Prova pessoal */}
-        <ScrollReveal>
-          <p className="text-text-secondary text-sm leading-relaxed mb-4">
-            Apliquei a sequência completa de movimentos em mim mesma. No final
-            da primeira semana, os sinais já eram claros — corpo mais leve,
-            menos inchado, silhueta visivelmente diferente.
-          </p>
-          <p className="text-text text-sm leading-relaxed mb-6">
-            Pensei: <strong>&ldquo;se funciona assim em mim, que já me cuido,
-            imagina em quem não faz nada?&rdquo;</strong>
-          </p>
-        </ScrollReveal>
-
-        {/* Resultados nas clientes */}
+        {/* Beat 3 — Prova */}
         <ScrollReveal>
           <p className="text-text-secondary text-sm leading-relaxed mb-2">
             Comecei a aplicar em poucas clientes. Os resultados vieram rápido.
           </p>
-          <p className="text-text text-sm leading-relaxed mb-6">
-            • Uma delas reduziu <strong>4cm de cintura em apenas 3 sessões.</strong>
+          <p className="text-text text-sm leading-relaxed mb-4">
+            Uma delas reduziu <strong>4cm de cintura em apenas 3 sessões.</strong>
           </p>
-        </ScrollReveal>
-
-        {/* Diferencial emocional — QuoteBox */}
-        <ScrollReveal>
-          <QuoteBox variant="cta" className="mb-6">
-            <p className="text-text-secondary text-sm leading-relaxed">
-              Uma cliente começou a chorar na primeira sessão. Não de dor — de{' '}
-              <strong className="text-text">alívio</strong>. Disse que fazia anos
-              que não dedicava 30 minutos só pra cuidar de si mesma. Quando viu o
-              resultado no espelho, chorou de novo.
-            </p>
-          </QuoteBox>
-        </ScrollReveal>
-
-        <ScrollReveal>
-          <p className="text-text-secondary text-sm leading-relaxed mb-6">
-            Depois de resultados rápidos e marcantes, passei a ser chamada de{' '}
-            <strong>&ldquo;As mãos que curam&rdquo;</strong>.
-          </p>
-        </ScrollReveal>
-
-        {/* Missão */}
-        <ScrollReveal>
           <p className="text-text-secondary text-sm leading-relaxed mb-4">
-            Eu cansei de ver mulheres gastando fortunas em sessões que só duram
-            uma semana. Por isso, peguei tudo o que aprendi em 5 anos de prática
-            profissional e criei o único método que transforma seu corpo com
-            prazer.
+            Depois disso, passei a ser chamada de{' '}
+            <strong>&ldquo;As mãos que curam&rdquo;</strong>. Por isso, peguei
+            tudo o que aprendi em 5 anos de prática profissional e criei o
+            único método que transforma seu corpo com prazer.
           </p>
           <p className="text-text text-lg font-bold leading-tight">
             Esse é o Desafio Drena 21.

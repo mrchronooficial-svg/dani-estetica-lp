@@ -1,26 +1,139 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: #FAF6F3;
+  --color-text: #3D2B1F;
+  --color-text-secondary: #6B5548;
+  --color-primary: #D4A59A;
+  --color-primary-light: #E8C4B8;
+  --color-accent: #C9A96E;
+  --color-cta: #C46A5A;
+  --color-cta-hover: #B35A4A;
+  --color-border: #EDE6E0;
+  --color-white: #FFFFFF;
+  --font-sans: var(--font-plus-jakarta);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* CTA Gradient Button */
+.cta-gradient {
+  background: linear-gradient(to right, #C46A5A, #C9A96E);
+}
+
+.cta-gradient:hover {
+  background: linear-gradient(to right, #B35A4A, #B3944F);
+}
+
+/* CTA Glow Animation */
+@keyframes ctaGlow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(196, 106, 90, 0.35),
+                0 0 40px rgba(201, 169, 110, 0.15);
+  }
+  50% {
+    box-shadow: 0 0 35px rgba(196, 106, 90, 0.5),
+                0 0 60px rgba(201, 169, 110, 0.25);
+  }
+}
+
+.cta-glow {
+  animation: ctaGlow 2.5s ease-in-out infinite;
+}
+
+/* Blob Float Animation */
+@keyframes blobFloat {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(20px, -20px) scale(1.05); }
+  66% { transform: translate(-10px, 15px) scale(0.95); }
+}
+
+.blob-float {
+  animation: blobFloat 15s ease-in-out infinite;
+}
+
+/* Gradient Blobs */
+.gradient-blob {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.20;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.gradient-blob-rose {
+  background: radial-gradient(circle, #D4A59A, transparent 70%);
+}
+
+.gradient-blob-gold {
+  background: radial-gradient(circle, #C9A96E, transparent 70%);
+}
+
+/* Gradient Text Utilities */
+.text-gradient-primary {
+  background: linear-gradient(to right, #D4A59A, #C9A96E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-cta {
+  background: linear-gradient(to right, #C46A5A, #C9A96E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Card Glow Hover */
+.card-glow-hover {
+  transition: box-shadow 0.3s ease;
+}
+
+.card-glow-hover:hover {
+  box-shadow: 0 4px 20px rgba(201, 169, 110, 0.15),
+              0 2px 12px rgba(61, 43, 31, 0.06);
+}
+
+/* Glass fallback */
+@supports not (backdrop-filter: blur(10px)) {
+  .glass-fallback {
+    background: rgba(250, 246, 243, 0.95) !important;
+  }
+}
+
+/* Hide scrollbar for carousels */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Prefers reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
 }

@@ -4,12 +4,11 @@ import SectionLabel from "@/components/ui/SectionLabel";
 import CTAButton from "@/components/ui/CTAButton";
 import { CHECKOUT_URL, CTA_SUBTEXT } from "@/lib/constants";
 
-const recapItems = [
-  { name: "Desafio Drena 21 Completo", value: "R$497" },
-  { name: "Bônus: Protocolo Rosto de Cristal", value: "R$97" },
-  { name: "Bônus: Ritual Energético Detox", value: "R$67" },
-  { name: "Bônus: Guia Desincha Já (c/ nutricionista)", value: "R$127" },
-  { name: "Bônus: Hidratação Profunda Pro", value: "R$67" },
+const recapLines = [
+  { icon: "✅", text: "Curso completo — 4 módulos práticos" },
+  { icon: "🎁", text: "4 bônus exclusivos inclusos" },
+  { icon: "🔒", text: "Garantia incondicional de 7 dias" },
+  { icon: "♾️", text: "Acesso vitalício" },
 ];
 
 export default function OfertaFinal() {
@@ -32,20 +31,13 @@ export default function OfertaFinal() {
 
         <ScrollReveal delay={0.1}>
           <div className="bg-white rounded-2xl p-6 shadow-[0_2px_12px_rgba(61,43,31,0.06)] mb-8">
-            <p className="text-sm font-bold text-text mb-4 text-center">
-              Tudo que você recebe:
-            </p>
-
             <ul className="space-y-3 mb-6">
-              {recapItems.map((item, i) => (
-                <li key={i} className="flex items-start gap-2">
-                  <span className="text-green-500 shrink-0 mt-0.5">✅</span>
-                  <div className="flex-1 flex justify-between items-baseline gap-2">
-                    <span className="text-sm text-text">{item.name}</span>
-                    <span className="text-xs text-text-secondary whitespace-nowrap">
-                      {item.value}
-                    </span>
-                  </div>
+              {recapLines.map((item, i) => (
+                <li key={i} className="flex items-center gap-3">
+                  <span className="text-lg shrink-0">{item.icon}</span>
+                  <span className="text-sm font-medium text-text">
+                    {item.text}
+                  </span>
                 </li>
               ))}
             </ul>

@@ -6,24 +6,20 @@ export const DORES = [
   "Você acorda **inchada** todos os dias e não importa o que faça, parece que o corpo não responde?",
   "Já **tentou dietas**, exercícios, chás, cremes e nada resolveu o inchaço e a retenção de líquido?",
   "Tem **vergonha de usar certas roupas** porque sabe que o corpo não está como gostaria?",
-  "Sente que a **celulite e a flacidez** só aumentam com o tempo, não importa o que faça?",
   "Não tem **tempo nem dinheiro** para sessões profissionais de massagem toda semana?",
-  "Já pensou em fazer **drenagem em casa** mas não sabe como fazer direito e tem medo de fazer errado?",
   "Olha no **espelho** e não reconhece mais o seu corpo — e isso afeta sua autoestima todos os dias?",
 ];
 
 export const NAO_E = [
   "**NÃO É** mais uma dieta restritiva que te faz passar fome e depois voltar tudo.",
   "**NÃO É** um programa de exercícios que exige horas na academia.",
-  "**NÃO É** teoria sobre emagrecimento que ninguém aplica.",
   "**NÃO É** um creme milagroso ou chá detox.",
 ];
 
 export const E_SIM = [
   "**É** a técnica profissional de massagem modeladora — a mesma que custa **R$200 por sessão** — adaptada para você fazer em si mesma.",
   "**É** um desafio de **21 dias**, com vídeos passo a passo, como se você estivesse no consultório da Dani.",
-  "**É** **15 minutos por dia** de autocuidado que desincha, modela e transforma seu corpo.",
-  "**É** prazer, relaxamento e resultado — tudo junto.",
+  "**É** **15 minutos por dia** de autocuidado que desincha, modela e transforma seu corpo **com prazer**.",
 ];
 
 export const POR_QUE_FUNCIONA = [
@@ -186,19 +182,7 @@ export const FAQ_ITEMS = [
     a: "O desinchamento é visível nos primeiros dias. Clientes presenciais da Dani relatam redução de 2 a 5cm na região abdominal ao longo das sessões. Com automassagem diária, a tendência é resultado progressivo ao longo dos 21 dias.",
   },
   {
-    q: "Preciso comprar produtos caros?",
-    a: "Não. Pode usar óleo de coco ou creme hidratante que você já tem em casa. Nada de produto especial ou caro.",
-  },
-  {
     q: "Já tentei de tudo e nada deu certo. Por que seria diferente?",
     a: "Porque isso não é dieta nem exercício. É uma técnica profissional completamente diferente de tudo que você já fez. Enquanto dietas tentam queimar gordura, a automassagem atua diretamente no fluido retido nos tecidos — por isso o resultado é mais rápido e visível.",
-  },
-  {
-    q: "É só pra quem quer emagrecer?",
-    a: "Não. O Desafio serve para desinchar, modelar, reduzir celulite, relaxar e cuidar de si. Muitas clientes da Dani buscam modelagem e definição de silhueta, não emagrecimento.",
-  },
-  {
-    q: "Por quanto tempo terei acesso ao curso?",
-    a: "O acesso é VITALÍCIO. Você compra uma vez e pode revisar o conteúdo sempre que precisar.",
   },
 ];

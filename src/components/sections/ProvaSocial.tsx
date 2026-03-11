@@ -1,8 +1,10 @@
 "use client";
 
 import { ReactNode } from "react";
+import Image from "next/image";
 import SectionLabel from "@/components/ui/SectionLabel";
 import ScrollReveal from "@/components/ui/ScrollReveal";
+import TruncatedCard from "@/components/ui/TruncatedCard";
 import {
   StaggerContainer,
   StaggerItem,
@@ -20,8 +22,15 @@ function parseBold(text: string): ReactNode[] {
   );
 }
 
-const testimonials = Array.from({ length: 6 }, (_, i) => i + 1);
-const beforeAfter = Array.from({ length: 3 }, (_, i) => i + 1);
+const depoimentos = Array.from({ length: 12 }, (_, i) => ({
+  src: `/images/depoimentos/depoimento-${String(i + 1).padStart(2, "0")}.jpeg`,
+  alt: `Depoimento de cliente ${i + 1}`,
+}));
+
+const antesDepois = Array.from({ length: 11 }, (_, i) => ({
+  src: `/images/antes-depois/antes-depois-${String(i + 1).padStart(2, "0")}.jpeg`,
+  alt: `Resultado antes e depois ${i + 1}`,
+}));
 
 export default function ProvaSocial() {
   return (
@@ -37,26 +46,31 @@ export default function ProvaSocial() {
           </h2>
         </div>
 
-        {/* Testimonial Grid */}
-        <StaggerContainer
-          staggerDelay={0.08}
-          className="grid grid-cols-2 gap-3 mb-10"
-        >
-          {testimonials.map((num) => (
-            <StaggerItem key={num}>
-              <div className="bg-white rounded-xl border border-border p-2">
-                <div className="bg-primary-light/30 rounded-lg h-48 flex items-center justify-center">
-                  <span className="text-text-secondary text-sm">
-                    Depoimento em breve
-                  </span>
+        {/* Testimonial Grid — truncated */}
+        <TruncatedCard maxHeight={480}>
+          <StaggerContainer
+            staggerDelay={0.08}
+            className="grid grid-cols-2 gap-3 mb-4"
+          >
+            {depoimentos.map((dep) => (
+              <StaggerItem key={dep.src}>
+                <div className="bg-white rounded-xl border border-border p-2 overflow-hidden">
+                  <Image
+                    src={dep.src}
+                    alt={dep.alt}
+                    width={400}
+                    height={300}
+                    className="w-full h-auto rounded-lg object-cover"
+                    loading="lazy"
+                  />
                 </div>
-              </div>
-            </StaggerItem>
-          ))}
-        </StaggerContainer>
+              </StaggerItem>
+            ))}
+          </StaggerContainer>
+        </TruncatedCard>
 
         {/* Reinforcement */}
-        <ScrollReveal className="text-center mb-14">
+        <ScrollReveal className="text-center mb-14 mt-6">
           <p className="text-text-secondary text-sm leading-relaxed">
             Essas são{" "}
             <strong className="font-bold text-text">
@@ -70,7 +84,7 @@ export default function ProvaSocial() {
           </p>
         </ScrollReveal>
 
-        {/* Before/After Block */}
+        {/* Before/After Block — truncated */}
         <div className="text-center mb-8">
           <ScrollReveal>
             <h3 className="text-xl font-bold text-text leading-tight">
@@ -79,32 +93,24 @@ export default function ProvaSocial() {
           </ScrollReveal>
         </div>
 
-        <StaggerContainer staggerDelay={0.12} className="space-y-4">
-          {beforeAfter.map((num) => (
-            <StaggerItem key={num}>
-              <div className="bg-white rounded-xl border border-border p-3">
-                <div className="grid grid-cols-2 gap-3">
-                  <div className="bg-primary-light/30 rounded-lg h-40 flex flex-col items-center justify-center">
-                    <span className="text-text-secondary text-xs font-medium uppercase tracking-wide mb-1">
-                      Antes
-                    </span>
-                    <span className="text-text-secondary/50 text-xs">
-                      Foto {num}
-                    </span>
-                  </div>
-                  <div className="bg-primary-light/30 rounded-lg h-40 flex flex-col items-center justify-center">
-                    <span className="text-text-secondary text-xs font-medium uppercase tracking-wide mb-1">
-                      Depois
-                    </span>
-                    <span className="text-text-secondary/50 text-xs">
-                      Foto {num}
-                    </span>
-                  </div>
+        <TruncatedCard maxHeight={500}>
+          <StaggerContainer staggerDelay={0.12} className="space-y-4">
+            {antesDepois.map((item) => (
+              <StaggerItem key={item.src}>
+                <div className="bg-white rounded-xl border border-border p-3 overflow-hidden">
+                  <Image
+                    src={item.src}
+                    alt={item.alt}
+                    width={600}
+                    height={800}
+                    className="w-full h-auto rounded-lg object-cover"
+                    loading="lazy"
+                  />
                 </div>
-              </div>
-            </StaggerItem>
-          ))}
-        </StaggerContainer>
+              </StaggerItem>
+            ))}
+          </StaggerContainer>
+        </TruncatedCard>
       </div>
     </section>
   );
