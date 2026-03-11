@@ -175,7 +175,7 @@ export const FAQ_ITEMS = [
   },
   {
     q: "É caro?",
-    a: "Uma sessão profissional de autodrenagem custa de R$300 a R$350. O Desafio inteiro, com 21 dias de técnica + 4 bônus, custa R$197 — ou 12x de R$19,70 (menos de R$1 por dia). E o acesso é vitalício.",
+    a: "Uma sessão profissional de autodrenagem custa de R$300 a R$350. O Desafio inteiro, com 21 dias de técnica + 4 bônus, custa R$197 — ou 12x de R$19,70 (menos de R$1 por dia). E o acesso é por 1 ano completo.",
   },
   {
     q: "Quando vou ver resultado?",

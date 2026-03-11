@@ -8,7 +8,7 @@ const recapLines = [
   { icon: "✅", text: "Curso completo — 4 módulos práticos" },
   { icon: "🎁", text: "4 bônus exclusivos inclusos" },
   { icon: "🔒", text: "Garantia incondicional de 7 dias" },
-  { icon: "♾️", text: "Acesso vitalício" },
+  { icon: "📅", text: "1 ano de acesso" },
 ];
 
 export default function OfertaFinal() {
@@ -64,7 +64,7 @@ export default function OfertaFinal() {
 
         <ScrollReveal delay={0.2}>
           <CTAButton
-            text="QUERO MINHA VAGA COM ACESSO IMEDIATO E VITALÍCIO"
+            text="QUERO MINHA VAGA COM ACESSO IMEDIATO"
             subtext={CTA_SUBTEXT}
             href={CHECKOUT_URL}
             glow={true}

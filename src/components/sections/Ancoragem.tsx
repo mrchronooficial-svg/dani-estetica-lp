@@ -104,7 +104,7 @@ export default function Ancoragem() {
           <div className="mt-8">
             <CTAButton
               text="GARANTIR MINHA VAGA POR APENAS R$197"
-              subtext="Acesso imediato + vitalício · Garantia incondicional de 7 dias"
+              subtext="Acesso imediato + 1 ano de acesso · Garantia incondicional de 7 dias"
               href={CHECKOUT_URL}
             />
           </div>
